@@ -1,0 +1,29 @@
+.display {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 32px 1fr;
+  overflow: hidden;
+}
+.status-bar {
+  background: #1B262C;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.status-bar img {
+  height: 16px;
+  margin-left: 6px;
+}
+.status-bar-left,.status-bar-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.status-bar-left .date {
+  font-family: Verdana;
+  color: #e8eaed;
+  font-size: 12px;
+}

@@ -1,0 +1,54 @@
+.comment {
+  display: grid;
+  grid-template-columns: 15% 80%;
+  gap: 5%;
+  margin-bottom: 64px;
+}
+.comment-text-data {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.comment-user-pic {
+  width: 100%;
+}
+.comment-top {
+  display: flex;
+  align-items: baseline;
+}
+.comment-uname {
+  font-size: 36px;
+  font-weight: 600;
+  color: #fcfefd;
+}
+.comment-time {
+  margin-left: 18px;
+  font-size: 18px;
+  color: #7d7e83;
+}
+.comment-body {
+  font-size: 36px;
+  padding-block: 32px;
+  color: #c7c8cd;
+}
+.comment-Likes,
+.comment-bottom {
+  display: flex;
+  align-items: center;
+}
+.comment-Likes button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.comment-likes-count {
+  color: #7d7e83;
+  font-size: 18px;
+  margin-left: 8px;
+}
+.comment-reply {
+  color: #7d7e83;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 32px;
+}

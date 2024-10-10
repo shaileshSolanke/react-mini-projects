@@ -1,0 +1,10 @@
+.navigation-menu-container {
+  height: 100%;
+  width: 100%;
+  background: #E2F1E7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

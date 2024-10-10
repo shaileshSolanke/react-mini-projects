@@ -1,0 +1,9 @@
+.qr-code-output {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.output{
+  padding: 24px;
+  border-radius: 8px;
+}

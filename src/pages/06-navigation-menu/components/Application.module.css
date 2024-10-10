@@ -1,0 +1,58 @@
+.error-msg-container,
+.loading-msg-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+.error-msg-container p {
+  font-family: Verdana;
+  font-size: 10px;
+  color: red;
+}
+.loading-msg-container img {
+  height: 25px;
+}
+.application {
+  position: relative;
+  background: #bbe1fa;
+  overflow-y: hidden;
+}
+.app-content {
+  padding: 6px;
+  text-align: justify;
+  font-family: Verdana;
+  filter:blur(1.5px);
+}
+.app-content h3{
+    background: #fff70080;
+}
+.app-content p,h3 {
+  font-size: 16px;
+}
+.app-menu {
+  height: 100%;
+  width: 70%;
+  position: absolute;
+  top: 0;
+  background: #1b262c;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  box-shadow:5px 0 25px;
+}
+.app-menu-top {
+  padding: 0 4px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #3e5765;
+}
+.app-menu-top span {
+  font-family: Verdana;
+}
+.app-menu-top img {
+  cursor: not-allowed;
+}

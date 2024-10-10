@@ -1,0 +1,64 @@
+.error-msg-container,
+.loading-msg-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.error-msg-container p {
+  font-family: Verdana;
+  font-size: 2rem;
+  color: red;
+}
+.loading-msg-container img {
+  height: 100px;
+}
+.load-more-container {
+  height: 100%;
+  width: 100%;
+  background: #f8f8f8;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.device {
+  width: 80%;
+  height: 80%;
+  background: #1f1f27;
+  border-radius: 75px 75px 0 0;
+  display: grid;
+  grid-template-rows: 150px 1fr;
+}
+.title {
+  color: #fcfefd;
+  font-size: 64px;
+  padding: 32px 40px;
+  border-bottom: 8px solid #383840;
+}
+.comments {
+  padding: 32px 40px 0 40px;
+  overflow: scroll;
+  scrollbar-width: none;
+}
+.load-more-btn-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.load-more-btn-outer span{
+  color: #383840;
+  margin-bottom: 32px;
+}
+.load-more-btn {
+  padding: 16px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  background: #fcfefd;
+  color: #545460;
+  margin-bottom: 32px;
+  &:disabled {
+    display: none;
+  }
+}

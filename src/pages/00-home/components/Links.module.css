@@ -1,0 +1,19 @@
+.links {
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.links a {
+  border-radius: 10px;
+  padding: 4px;
+  &:hover {
+    background: rgba(0, 0, 0, 0.1);
+  }
+}
+.links a img {
+  height: 36px;
+  margin-inline: 8px;
+}

@@ -1,0 +1,72 @@
+.error-msg-container,
+.loading-msg-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+}
+.error-msg-container p {
+  font-family: Verdana;
+  font-size: 2rem;
+  color: red;
+}
+.loading-msg-container img {
+  height: 100px;
+}
+
+.image-slider-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #000;
+  background: url("https://shaileshsolanke.github.io/data/react-mini-projects-data/04-image-slider/images/old-paper-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(50%);
+}
+.img {
+  border-radius: 15% 5% 25% 15%;
+  box-shadow: 10px 10px rgba(0, 0, 0, 0.1);
+  height: 80%;
+}
+.hide-img {
+  display: none;
+}
+.arrow {
+  background: rgba(0, 0, 0, 0.05);
+  border: none;
+  padding: 1rem;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    background: rgba(0, 0, 0, 0.2);
+  }
+  &:active {
+    background: rgba(0, 0, 0, 0.15);
+  }
+}
+.arrow img {
+  width: 3rem;
+}
+.indicator-btn-container {
+  width: 25%;
+  position: absolute;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 2rem;
+}
+.indicator-btn {
+  padding: 0.5rem;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  background: #000;
+}
+.inactive-indicator-btn {
+  background: rgba(0, 0, 0, 0.2);
+}

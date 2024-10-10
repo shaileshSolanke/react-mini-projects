@@ -1,0 +1,7 @@
+.qr-code-outer-container {
+  height: 100%;
+  width: 100%;
+  background: #3c3c3b;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}

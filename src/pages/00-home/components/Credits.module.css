@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "Silkscreen";
+  src: url("../../fonts/Silkscreen-Regular.ttf");
+}
+.credits {
+  display: grid;
+  grid-template-columns: 220px 1fr;
+  width: 60%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.credits span {
+  font-family: "Silkscreen";
+  font-size: 16px;
+  font-weight: 600;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 8px;
+}
+.credits marquee {
+  font-size: 16px;
+  padding: 8px;
+}
+
+.credits em{
+    margin: 0 50px;
+}

@@ -1,0 +1,8 @@
+.cursor {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 0 24px #000);
+}
