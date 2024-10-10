@@ -23,9 +23,9 @@ More Soon...
 
 I would like to give credit to the amazing creators who inspired these projects. Their tutorials and content helped shape the ideas behind many of the projects in this collection. Big thanks to:
 
-- **[ SuperSimpleDev ]** – [YouTube](youtube.com/@SuperSimpleDev)
-- **[ Akshay Saini ]** – [YouTube](youtube.com/@akshaymarch7)
-- **[ Hitesh Choudhary ]** – [YouTube](youtube.com/@HiteshCodeLab)
-- **[ Sangam Mukherjee ]** – [YouTube](youtube.com/@sangammukherjee)
+- **[ SuperSimpleDev ]** – [YouTube](https://www.youtube.com/@SuperSimpleDev)
+- **[ Akshay Saini ]** – [YouTube](https://www.youtube.com/@akshaymarch7)
+- **[ Hitesh Choudhary ]** – [YouTube](https://www.youtube.com/@HiteshCodeLab)
+- **[ Sangam Mukherjee ]** – [YouTube](https://www.youtube.com/@sangammukherjee)
 
 Check out their original work to learn more!
